@@ -20,6 +20,7 @@ def first_key(obj):
     ----------
     obj: dict-like object
     """
+    # comment
     return six.next(six.iterkeys(obj))
 
 
